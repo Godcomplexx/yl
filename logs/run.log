@@ -1,0 +1,44 @@
+2025-07-14 21:14:16,764 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-14 21:14:16,765 - CinematicDatasetCollector - INFO - Phase 1: Downloading raw videos from YouTube.
+2025-07-14 21:14:16,765 - CinematicDatasetCollector - INFO - Searching for keyword: 'cinematic video'
+2025-07-14 21:14:20,573 - CinematicDatasetCollector - INFO - Found 5 video candidates for 'cinematic video'. Proceeding to download.
+2025-07-14 21:14:20,602 - CinematicDatasetCollector - INFO - Downloading video: https://www.youtube.com/watch?v=KLuTLF3x9sA
+2025-07-14 21:27:53,369 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-14 21:27:53,369 - CinematicDatasetCollector - INFO - Phase 1: Downloading raw videos from YouTube.
+2025-07-14 21:27:53,370 - CinematicDatasetCollector - INFO - Searching for keyword: 'cinematic video'
+2025-07-14 21:29:16,220 - CinematicDatasetCollector - INFO - Found 5 video candidates for 'cinematic video'. Proceeding to download.
+2025-07-14 21:29:16,264 - CinematicDatasetCollector - INFO - Downloading video: https://www.youtube.com/watch?v=KLuTLF3x9sA
+2025-07-14 21:37:30,086 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-14 21:37:30,086 - CinematicDatasetCollector - INFO - Phase 1: Downloading raw videos from YouTube.
+2025-07-14 21:37:30,086 - CinematicDatasetCollector - INFO - Phase 1: Fetching metadata for keyword: 'cinematic video'
+2025-07-14 21:38:51,337 - CinematicDatasetCollector - INFO - Skipping video (duration 43154s): Norway 4K • Scenic Relaxation Film with Peaceful Relaxing Music and Nature Video Ultra HD
+2025-07-14 21:38:51,338 - CinematicDatasetCollector - INFO - Skipping video (duration 3338s): The Most Beautiful Earth Scenes Captured in 4K HDR (60FPS) |
+2025-07-14 21:38:51,338 - CinematicDatasetCollector - INFO - Found 5 suitable videos (under 900s) for 'cinematic video'.
+2025-07-14 21:38:51,339 - CinematicDatasetCollector - INFO - Phase 2: Downloading 5 videos for 'cinematic video'.
+2025-07-14 21:38:51,384 - CinematicDatasetCollector - INFO - Downloading: https://www.youtube.com/watch?v=JVzWTdDteWE
+2025-07-14 21:40:44,290 - CinematicDatasetCollector - INFO - Successfully downloaded: temp\raw_videos\JVzWTdDteWE.mp4
+2025-07-14 21:40:44,291 - CinematicDatasetCollector - INFO - Downloading: https://www.youtube.com/watch?v=ZUjLKTd0V2Y
+2025-07-14 22:07:02,839 - CinematicDatasetCollector - INFO - Successfully downloaded: temp\raw_videos\ZUjLKTd0V2Y.mp4
+2025-07-14 22:07:02,839 - CinematicDatasetCollector - INFO - Downloading: https://www.youtube.com/watch?v=W0PrnBQs_W4
+2025-07-14 22:18:04,300 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-14 22:18:04,300 - CinematicDatasetCollector - INFO - Phase 1: Downloading raw videos from YouTube.
+2025-07-14 22:18:04,302 - CinematicDatasetCollector - INFO - Phase 1: Fetching metadata for keyword: 'cinematic video'
+2025-07-14 22:18:38,959 - CinematicDatasetCollector - INFO - Skipping video (duration 43154s): Norway 4K • Scenic Relaxation Film with Peaceful Relaxing Music and Nature Video Ultra HD
+2025-07-14 22:18:38,959 - CinematicDatasetCollector - INFO - Skipping video (duration 3338s): The Most Beautiful Earth Scenes Captured in 4K HDR (60FPS) |
+2025-07-14 22:18:38,959 - CinematicDatasetCollector - INFO - Found 5 suitable videos (under 900s) for 'cinematic video'.
+2025-07-14 22:18:38,959 - CinematicDatasetCollector - INFO - Phase 2: Downloading 5 videos for 'cinematic video'.
+2025-07-14 22:18:38,986 - CinematicDatasetCollector - INFO - Downloading: https://www.youtube.com/watch?v=ZUjLKTd0V2Y
+2025-07-14 22:18:43,839 - CinematicDatasetCollector - INFO - Successfully downloaded: temp\raw_videos\ZUjLKTd0V2Y.mp4
+2025-07-14 22:18:43,840 - CinematicDatasetCollector - INFO - Downloading: https://www.youtube.com/watch?v=JVzWTdDteWE
+2025-07-14 22:19:26,242 - CinematicDatasetCollector - INFO - Successfully downloaded: temp\raw_videos\JVzWTdDteWE.mp4
+2025-07-14 22:19:26,242 - CinematicDatasetCollector - INFO - Downloading: https://www.youtube.com/watch?v=W0PrnBQs_W4
+2025-07-14 22:36:44,818 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-14 22:36:44,818 - CinematicDatasetCollector - INFO - --- Starting Video Scraping Phase ---
+2025-07-14 22:36:44,818 - CinematicDatasetCollector - INFO - Active scrapers: ['youtube']
+2025-07-14 22:36:44,818 - CinematicDatasetCollector - INFO - --- Running scraper: youtube ---
+2025-07-14 22:36:44,818 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'action scene'
+2025-07-14 22:37:41,735 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-14 22:37:41,736 - CinematicDatasetCollector - INFO - --- Starting Video Scraping Phase ---
+2025-07-14 22:37:41,736 - CinematicDatasetCollector - INFO - Active scrapers: ['youtube']
+2025-07-14 22:37:41,736 - CinematicDatasetCollector - INFO - --- Running scraper: youtube ---
+2025-07-14 22:37:41,736 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'action scene'
