@@ -53,35 +53,49 @@ class YouTubeScraper(ScraperStrategy):
             if not videos_to_download:
                 return []
 
-            log.info(f"[YouTube] Phase 2: Downloading {len(videos_to_download)} videos for '{keyword}'.")
-            download_ydl_opts = {
-                'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
-                'outtmpl': str(download_dir / '%(id)s.%(ext)s'),
-                'quiet': True,
-                'ignoreerrors': True,
-                'socket_timeout': 30,
-            }
-
-            with yt_dlp.YoutubeDL(download_ydl_opts) as ydl:
-                for video_info in videos_to_download:
-                    video_url = video_info.get('webpage_url')
-                    if not video_url:
+            log.info(f"[YouTube] Phase 2: Downloading {len(videos_to_download)} videos for keyword: '{keyword}'")
+            for i, video in enumerate(videos_to_download):
+                try:
+                    video_id = video['id']
+                    video_url = video['webpage_url']
+                    output_path = download_dir / f"youtube_{keyword.replace(' ', '_')}_{video_id}.mp4"
+                    
+                    # Проверяем, существует ли уже этот файл
+                    if output_path.exists():
+                        log.info(f"[YouTube] Video {video_id} already exists for '{keyword}', skipping download")
+                        downloaded_videos.append({
+                            'id': video_id,
+                            'filepath': str(output_path),
+                            'keyword': keyword,
+                            'source': 'youtube',
+                            'original_url': video_url
+                        })
                         continue
                     
-                    log.info(f"[YouTube] Downloading: {video_url}")
-                    try:
-                        info_dict = ydl.extract_info(video_url, download=True)
-                        filepath_str = ydl.prepare_filename(info_dict)
+                    download_ydl_opts = {
+                        'format': 'bestvideo[ext=mp4][height<=720]+bestaudio[ext=m4a]/best[ext=mp4]/best',
+                        'outtmpl': str(output_path),
+                        'quiet': True,
+                        'no_warnings': True,
+                    }
+                    
+                    with yt_dlp.YoutubeDL(download_ydl_opts) as ydl:
+                        ydl.download([video_url])
+                    
+                    if output_path.exists():
                         downloaded_videos.append({
-                            'id': info_dict.get('id'),
-                            'title': info_dict.get('title'),
-                            'original_url': info_dict.get('webpage_url'),
-                            'filepath': Path(filepath_str),
-                            'keyword': keyword
+                            'id': video_id,
+                            'filepath': str(output_path),
+                            'keyword': keyword,
+                            'source': 'youtube',
+                            'original_url': video_url
                         })
-                        log.info(f"[YouTube] Successfully downloaded: {filepath_str}")
-                    except Exception as e:
-                        log.error(f"[YouTube] Failed to download {video_url}. Reason: {e}")
+                        log.info(f"[YouTube] Downloaded video {i+1}/{len(videos_to_download)} for '{keyword}'")
+                    else:
+                        log.warning(f"[YouTube] Failed to download video {video_id} for '{keyword}'")
+                        
+                except Exception as e:
+                    log.error(f"[YouTube] Error downloading video: {e}")
 
         except Exception as e:
             log.error(f"[YouTube] An error occurred during the process for '{keyword}': {e}")

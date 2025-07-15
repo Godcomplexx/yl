@@ -1,24 +1,45 @@
 # Configuration for the cinematic dataset scraper
 
-# Keywords for searching cinematic videos on YouTube
+# Keywords for searching cinematic videos on YouTube and TikTok
+# General settings
+# Целевое количество клипов в итоговом датасете
+target_clip_count: 1000
+
+# Коэффициент запаса для скачивания (сколько видео нужно скачать для получения целевого количества клипов)
+video_margin_factor: 1.5
+
 keywords:
   - 'action scene'
   - 'neon city'
+  - 'bullet time'
+  - 'explosion scene'
+  - 'cinematic shot'
+  - 'camera spin'
+  - 'slow motion action'
+  - 'smoke effects'
+  - 'cinematic lighting'
+  - 'movie effects'
 
 # Scraper settings
-# A list of scraper strategies to use. Currently available: 'youtube'
+# A list of scraper strategies to use. Currently available: 'youtube', 'tiktok'
 active_scrapers:
   - youtube
+  - tiktok
+
+# RapidAPI configuration
+rapidapi:
+  key: "e6b1720a0dmsh29b883606ae5766p101fa8jsn292cf87da923"
 
 scraper:
-  search_prefix: 'ytsearch3' # Search for 10 videos for each keyword
-  download_limit_per_keyword: 2 # Limit of videos to download for each keyword to avoid too many requests
-  max_video_duration: 900 # Maximum duration in seconds (15 minutes) to consider for download
+  search_prefix: 'ytsearch50' # Увеличено до 50 видео для каждого ключевого слова
+  max_videos_per_keyword: 50  # увеличено для получения примерно 1000 видео
+  download_limit_per_keyword: 50  # количество видео для скачивания по каждому ключевому слову
+  max_video_duration: 60  # в секундах (1 минута) - короткие видео для более быстрой загрузки
 
 # Processing settings
 processing:
-  clip_duration: 5  # seconds
-  min_clip_duration: 1 # seconds
+  clip_duration: 5  # в секундах - максимальная длительность клипа
+  min_clip_duration: 1  # минимальная длительность клипа в секундах
 
 # Paths
 paths:

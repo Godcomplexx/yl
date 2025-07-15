@@ -42,3 +42,771 @@
 2025-07-14 22:37:41,736 - CinematicDatasetCollector - INFO - Active scrapers: ['youtube']
 2025-07-14 22:37:41,736 - CinematicDatasetCollector - INFO - --- Running scraper: youtube ---
 2025-07-14 22:37:41,736 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'action scene'
+2025-07-15 12:46:06,379 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-15 13:04:02,482 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-15 13:04:02,483 - CinematicDatasetCollector - INFO - --- Starting Video Scraping Phase ---
+2025-07-15 13:04:02,483 - CinematicDatasetCollector - INFO - Active scrapers: ['youtube', 'tiktok']
+2025-07-15 13:04:02,483 - CinematicDatasetCollector - INFO - --- Running scraper: youtube ---
+2025-07-15 13:04:02,483 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'action scene': 'download_limit_per_keyword'
+2025-07-15 13:04:02,483 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'neon city': 'download_limit_per_keyword'
+2025-07-15 13:04:02,484 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'bullet time': 'download_limit_per_keyword'
+2025-07-15 13:04:02,484 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'explosion scene': 'download_limit_per_keyword'
+2025-07-15 13:04:02,484 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'cinematic shot': 'download_limit_per_keyword'
+2025-07-15 13:04:02,484 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'camera spin': 'download_limit_per_keyword'
+2025-07-15 13:04:02,485 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'slow motion action': 'download_limit_per_keyword'
+2025-07-15 13:04:02,485 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'smoke effects': 'download_limit_per_keyword'
+2025-07-15 13:04:02,485 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'cinematic lighting': 'download_limit_per_keyword'
+2025-07-15 13:04:02,485 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'youtube' with keyword 'movie effects': 'download_limit_per_keyword'
+2025-07-15 13:04:02,485 - CinematicDatasetCollector - INFO - --- Running scraper: tiktok ---
+2025-07-15 13:04:02,485 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'action scene': 'download_limit_per_keyword'
+2025-07-15 13:04:02,485 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'neon city': 'download_limit_per_keyword'
+2025-07-15 13:04:02,486 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'bullet time': 'download_limit_per_keyword'
+2025-07-15 13:04:02,486 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'explosion scene': 'download_limit_per_keyword'
+2025-07-15 13:04:02,486 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'cinematic shot': 'download_limit_per_keyword'
+2025-07-15 13:04:02,486 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'camera spin': 'download_limit_per_keyword'
+2025-07-15 13:04:02,486 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'slow motion action': 'download_limit_per_keyword'
+2025-07-15 13:04:02,487 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'smoke effects': 'download_limit_per_keyword'
+2025-07-15 13:04:02,487 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'cinematic lighting': 'download_limit_per_keyword'
+2025-07-15 13:04:02,487 - CinematicDatasetCollector - CRITICAL - A critical error occurred in scraper 'tiktok' with keyword 'movie effects': 'download_limit_per_keyword'
+2025-07-15 13:04:02,487 - CinematicDatasetCollector - INFO - Scraping phase complete. Downloaded a total of 0 raw videos.
+2025-07-15 13:04:02,487 - CinematicDatasetCollector - WARNING - No videos were downloaded. Exiting.
+2025-07-15 13:46:51,671 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-15 13:46:51,672 - CinematicDatasetCollector - INFO - --- Starting Video Scraping Phase ---
+2025-07-15 13:46:51,672 - CinematicDatasetCollector - INFO - Active scrapers: ['youtube', 'tiktok']
+2025-07-15 13:46:51,672 - CinematicDatasetCollector - INFO - --- Running scraper: youtube ---
+2025-07-15 13:46:51,672 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'action scene'
+2025-07-15 13:50:36,212 - CinematicDatasetCollector - INFO - [YouTube] Found 11 suitable videos (under 60s) for 'action scene'.
+2025-07-15 13:50:36,212 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 11 videos for 'action scene'.
+2025-07-15 13:50:36,258 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=KtBbjktTcxc
+2025-07-15 13:50:46,322 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\KtBbjktTcxc.mp4
+2025-07-15 13:50:46,322 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=hU6usr_C_hk
+2025-07-15 13:51:01,423 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\hU6usr_C_hk.mp4
+2025-07-15 13:51:01,424 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=V4FXOAG4B8o
+2025-07-15 13:51:22,825 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\V4FXOAG4B8o.mp4
+2025-07-15 13:51:22,825 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=ewhAN1GNHgE
+2025-07-15 13:51:39,182 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\ewhAN1GNHgE.mp4
+2025-07-15 13:51:39,182 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=6Lt7NVjTUv0
+2025-07-15 13:51:47,601 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\6Lt7NVjTUv0.mp4
+2025-07-15 13:51:47,602 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=mO83fE6KzCE
+2025-07-15 13:52:16,842 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\mO83fE6KzCE.mp4
+2025-07-15 13:52:16,843 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=n6zFP3seKRc
+2025-07-15 13:52:43,642 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\n6zFP3seKRc.mp4
+2025-07-15 13:52:43,642 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=SO3eQMAPRvY
+2025-07-15 13:52:49,394 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\SO3eQMAPRvY.mp4
+2025-07-15 13:52:49,394 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Dc_pK3NkFrk
+2025-07-15 13:53:01,138 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Dc_pK3NkFrk.mp4
+2025-07-15 13:53:01,139 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=jNFWdkyAMLY
+2025-07-15 13:53:13,386 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\jNFWdkyAMLY.mp4
+2025-07-15 13:53:13,386 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=av8EKIfh4Y8
+2025-07-15 13:53:33,604 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\av8EKIfh4Y8.mp4
+2025-07-15 13:53:33,615 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'neon city'
+2025-07-15 13:56:26,915 - CinematicDatasetCollector - INFO - [YouTube] Found 5 suitable videos (under 60s) for 'neon city'.
+2025-07-15 13:56:26,916 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 5 videos for 'neon city'.
+2025-07-15 13:56:26,968 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=4j9AdROusz8
+2025-07-15 13:56:37,615 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\4j9AdROusz8.mp4
+2025-07-15 13:56:37,616 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=lP_3De0_bZ4
+2025-07-15 13:56:56,382 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\lP_3De0_bZ4.mp4
+2025-07-15 13:56:56,382 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=HaNhdJXqxLA
+2025-07-15 13:57:22,928 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\HaNhdJXqxLA.mp4
+2025-07-15 13:57:22,929 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=l2OxQojs6WE
+2025-07-15 13:57:35,684 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\l2OxQojs6WE.mp4
+2025-07-15 13:57:35,684 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=aiZJcDIr1Zo
+2025-07-15 13:57:44,593 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\aiZJcDIr1Zo.mp4
+2025-07-15 13:57:44,602 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'bullet time'
+2025-07-15 14:00:50,409 - CinematicDatasetCollector - INFO - [YouTube] Found 23 suitable videos (under 60s) for 'bullet time'.
+2025-07-15 14:00:50,409 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 23 videos for 'bullet time'.
+2025-07-15 14:00:50,457 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=kOUqERTL1g0
+2025-07-15 14:01:17,939 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\kOUqERTL1g0.mp4
+2025-07-15 14:01:17,939 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=fCb8ECt5eUE
+2025-07-15 14:01:33,890 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\fCb8ECt5eUE.mp4
+2025-07-15 14:01:33,890 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=at-tkCISupU
+2025-07-15 14:01:45,871 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\at-tkCISupU.mp4
+2025-07-15 14:01:45,871 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=BxhA0vKyZVk
+2025-07-15 14:04:38,367 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\BxhA0vKyZVk.mp4
+2025-07-15 14:04:38,367 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=6YaL6-8DWQo
+2025-07-15 14:04:53,756 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\6YaL6-8DWQo.mp4
+2025-07-15 14:04:53,756 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=2V8NgEZauIM
+2025-07-15 14:05:09,274 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\2V8NgEZauIM.mp4
+2025-07-15 14:05:09,274 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=UyoX-8hl10E
+2025-07-15 14:05:20,811 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\UyoX-8hl10E.mp4
+2025-07-15 14:05:20,811 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=WhxbYTMNMxo
+2025-07-15 14:05:27,957 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\WhxbYTMNMxo.mp4
+2025-07-15 14:05:27,957 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=23HNh6RFFY8
+2025-07-15 14:05:37,827 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\23HNh6RFFY8.mp4
+2025-07-15 14:05:37,828 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=gRVImYiuvYM
+2025-07-15 14:05:52,193 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\gRVImYiuvYM.mp4
+2025-07-15 14:05:52,193 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=ByCD2DEoAC8
+2025-07-15 14:06:07,304 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\ByCD2DEoAC8.mp4
+2025-07-15 14:06:07,304 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=-JaPTyMVxhM
+2025-07-15 14:06:18,183 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\-JaPTyMVxhM.mp4
+2025-07-15 14:06:18,184 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=_lSGnQiNMwI
+2025-07-15 14:06:25,503 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\_lSGnQiNMwI.mp4
+2025-07-15 14:06:25,503 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=6UZIeJHBshY
+2025-07-15 14:06:57,568 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\6UZIeJHBshY.mp4
+2025-07-15 14:06:57,568 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=U4Q7VQg3b5E
+2025-07-15 14:07:05,265 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\U4Q7VQg3b5E.mp4
+2025-07-15 14:07:05,265 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=bAinQeaf288
+2025-07-15 14:07:27,475 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\bAinQeaf288.mp4
+2025-07-15 14:07:27,475 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=V0c8ozPB27s
+2025-07-15 14:07:38,674 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\V0c8ozPB27s.mp4
+2025-07-15 14:07:38,674 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=HF5BS0Y6hNs
+2025-07-15 14:07:48,548 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\HF5BS0Y6hNs.mp4
+2025-07-15 14:07:48,548 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=niFzoRMI64k
+2025-07-15 14:08:12,903 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\niFzoRMI64k.mp4
+2025-07-15 14:08:12,904 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=bDgnxo1Bjp4
+2025-07-15 14:08:27,411 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\bDgnxo1Bjp4.mp4
+2025-07-15 14:08:27,412 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=s7gN5Z7YUmI
+2025-07-15 14:08:41,358 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\s7gN5Z7YUmI.mp4
+2025-07-15 14:08:41,358 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=SXNXXD8r0vY
+2025-07-15 14:08:47,615 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\SXNXXD8r0vY.mp4
+2025-07-15 14:08:47,616 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=8Fn2AZZBht4
+2025-07-15 14:09:07,070 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\8Fn2AZZBht4.mp4
+2025-07-15 14:09:07,079 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'explosion scene'
+2025-07-15 14:12:49,854 - CinematicDatasetCollector - INFO - [YouTube] Found 15 suitable videos (under 60s) for 'explosion scene'.
+2025-07-15 14:12:49,854 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 15 videos for 'explosion scene'.
+2025-07-15 14:12:49,901 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=LeY0ve9j8nw
+2025-07-15 14:12:59,687 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\LeY0ve9j8nw.mp4
+2025-07-15 14:12:59,688 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=mVNA-fUb9gg
+2025-07-15 14:13:11,807 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\mVNA-fUb9gg.mp4
+2025-07-15 14:13:11,807 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=y0FnfGblLr8
+2025-07-15 14:13:17,543 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\y0FnfGblLr8.mp4
+2025-07-15 14:13:17,543 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=noY-Sd0DZqM
+2025-07-15 14:13:22,112 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\noY-Sd0DZqM.mp4
+2025-07-15 14:13:22,112 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=EaqDptraCEk
+2025-07-15 14:13:40,340 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\EaqDptraCEk.mp4
+2025-07-15 14:13:40,340 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=PESfnbr9I58
+2025-07-15 14:13:48,204 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\PESfnbr9I58.mp4
+2025-07-15 14:13:48,204 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=evnZ0tgqoKQ
+2025-07-15 14:13:57,105 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\evnZ0tgqoKQ.mp4
+2025-07-15 14:13:57,106 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=9dZ1tqjC4j0
+2025-07-15 14:14:42,667 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\9dZ1tqjC4j0.mp4
+2025-07-15 14:14:42,667 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=z4o_oz-k7fQ
+2025-07-15 14:15:02,732 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\z4o_oz-k7fQ.mp4
+2025-07-15 14:15:02,732 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=f2oq7cwKXCg
+2025-07-15 14:16:00,821 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\f2oq7cwKXCg.mp4
+2025-07-15 14:16:00,821 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=lO2-YxWkRxk
+2025-07-15 14:16:12,947 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\lO2-YxWkRxk.mp4
+2025-07-15 14:16:12,948 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=GaLWZeYEogU
+2025-07-15 14:16:33,983 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\GaLWZeYEogU.mp4
+2025-07-15 14:16:33,984 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=1I8KYkA-dnU
+2025-07-15 14:16:44,167 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\1I8KYkA-dnU.mp4
+2025-07-15 14:16:44,167 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=9m7hPlL-v4A
+2025-07-15 14:16:51,749 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\9m7hPlL-v4A.mp4
+2025-07-15 14:16:51,749 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=GPo4GxKkrhg
+2025-07-15 14:17:01,916 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\GPo4GxKkrhg.mp4
+2025-07-15 14:17:01,923 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'cinematic shot'
+2025-07-15 14:20:10,669 - CinematicDatasetCollector - INFO - [YouTube] Found 18 suitable videos (under 60s) for 'cinematic shot'.
+2025-07-15 14:20:10,669 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 18 videos for 'cinematic shot'.
+2025-07-15 14:20:10,730 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=2KUBmVNVh-E
+2025-07-15 14:20:30,957 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\2KUBmVNVh-E.mp4
+2025-07-15 14:20:30,958 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Ev_xyxSC8ZI
+2025-07-15 14:20:45,585 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Ev_xyxSC8ZI.mp4
+2025-07-15 14:20:45,585 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=yOZ2dnA4j8o
+2025-07-15 14:20:54,371 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\yOZ2dnA4j8o.mp4
+2025-07-15 14:20:54,372 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=DTGNlk2cXa0
+2025-07-15 14:22:22,218 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\DTGNlk2cXa0.mp4
+2025-07-15 14:22:22,218 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=izv3SiAWhlo
+2025-07-15 14:22:37,636 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\izv3SiAWhlo.mp4
+2025-07-15 14:22:37,637 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=prxKHGZ7V1A
+2025-07-15 14:22:43,530 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\prxKHGZ7V1A.mp4
+2025-07-15 14:22:43,530 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=_xORAnJpxLA
+2025-07-15 14:22:58,642 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\_xORAnJpxLA.mp4
+2025-07-15 14:22:58,642 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=li3DO7v7yOE
+2025-07-15 14:23:11,437 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\li3DO7v7yOE.mp4
+2025-07-15 14:23:11,438 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=5-o34Zrpra0
+2025-07-15 14:23:27,369 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\5-o34Zrpra0.mp4
+2025-07-15 14:23:27,369 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=h8NstyJWyB0
+2025-07-15 14:23:36,617 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\h8NstyJWyB0.mp4
+2025-07-15 14:23:36,617 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=ZIz3YKBjlcg
+2025-07-15 14:23:48,359 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\ZIz3YKBjlcg.mp4
+2025-07-15 14:23:48,359 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=M_M9k8NPJ3k
+2025-07-15 14:24:22,124 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\M_M9k8NPJ3k.mp4
+2025-07-15 14:24:22,124 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=tcuQPpHxdII
+2025-07-15 14:24:42,206 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\tcuQPpHxdII.mp4
+2025-07-15 14:24:42,206 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=dOOwwTkk3wo
+2025-07-15 14:25:00,255 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\dOOwwTkk3wo.mp4
+2025-07-15 14:25:00,255 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Sgxbx65IDeM
+2025-07-15 14:25:16,491 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Sgxbx65IDeM.mp4
+2025-07-15 14:25:16,492 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=I3rK6NYrJXQ
+2025-07-15 14:25:58,445 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\I3rK6NYrJXQ.mp4
+2025-07-15 14:25:58,445 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=weipQCbYbGY
+2025-07-15 14:26:26,068 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\weipQCbYbGY.mp4
+2025-07-15 14:26:26,068 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=HJnZM3UUCKk
+2025-07-15 14:26:34,065 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\HJnZM3UUCKk.mp4
+2025-07-15 14:26:34,076 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'camera spin'
+2025-07-15 14:30:15,502 - CinematicDatasetCollector - INFO - [YouTube] Found 23 suitable videos (under 60s) for 'camera spin'.
+2025-07-15 14:30:15,503 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 23 videos for 'camera spin'.
+2025-07-15 14:30:15,551 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=4jeqeeSppqw
+2025-07-15 14:30:25,883 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\4jeqeeSppqw.mp4
+2025-07-15 14:30:25,883 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=qotm2ke6eNQ
+2025-07-15 14:30:37,940 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\qotm2ke6eNQ.mp4
+2025-07-15 14:30:37,941 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=6oXkRIN_t0Y
+2025-07-15 14:31:02,729 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\6oXkRIN_t0Y.mp4
+2025-07-15 14:31:02,729 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=gEtlLU762IA
+2025-07-15 14:31:11,647 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\gEtlLU762IA.mp4
+2025-07-15 14:31:11,648 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=XkNiEIsTkv0
+2025-07-15 14:31:22,458 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\XkNiEIsTkv0.mp4
+2025-07-15 14:31:22,458 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=EdSFzps-0oA
+2025-07-15 14:31:32,093 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\EdSFzps-0oA.mp4
+2025-07-15 14:31:32,093 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=uOUM3sWAm4g
+2025-07-15 14:31:37,377 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\uOUM3sWAm4g.mp4
+2025-07-15 14:31:37,377 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=MDkIUPO9y0Q
+2025-07-15 14:31:52,526 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\MDkIUPO9y0Q.mp4
+2025-07-15 14:31:52,526 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=SjWGrC_lUZg
+2025-07-15 14:32:00,649 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\SjWGrC_lUZg.mp4
+2025-07-15 14:32:00,649 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=qJZYDBfmnsY
+2025-07-15 14:32:16,503 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\qJZYDBfmnsY.mp4
+2025-07-15 14:32:16,503 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=7nqt4YAWEmI
+2025-07-15 14:32:23,097 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\7nqt4YAWEmI.mp4
+2025-07-15 14:32:23,098 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=W4P29nVuyrI
+2025-07-15 14:32:35,419 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\W4P29nVuyrI.mp4
+2025-07-15 14:32:35,419 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Ryxlv_Uc8jU
+2025-07-15 14:32:48,464 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Ryxlv_Uc8jU.mp4
+2025-07-15 14:32:48,464 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=J39hFh1Apjc
+2025-07-15 14:32:56,669 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\J39hFh1Apjc.mp4
+2025-07-15 14:32:56,669 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=j42RUmd199w
+2025-07-15 14:33:15,300 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\j42RUmd199w.mp4
+2025-07-15 14:33:15,301 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Tlqwgfe2nsA
+2025-07-15 14:33:28,720 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Tlqwgfe2nsA.mp4
+2025-07-15 14:33:28,720 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=LT4YX_FsNL8
+2025-07-15 14:33:51,777 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\LT4YX_FsNL8.mp4
+2025-07-15 14:33:51,777 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Um5EnfRWo5c
+2025-07-15 14:34:30,542 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Um5EnfRWo5c.mp4
+2025-07-15 14:34:30,542 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=te9JzAqGky0
+2025-07-15 14:34:37,274 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\te9JzAqGky0.mp4
+2025-07-15 14:34:37,275 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=bK9YShcmqNA
+2025-07-15 14:34:42,901 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\bK9YShcmqNA.mp4
+2025-07-15 14:34:42,902 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=jsTLXNDB-o0
+2025-07-15 14:34:48,811 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\jsTLXNDB-o0.mp4
+2025-07-15 14:34:48,811 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=6GbUJatUmRA
+2025-07-15 14:34:56,492 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\6GbUJatUmRA.mp4
+2025-07-15 14:34:56,492 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=PDD__VgFTnM
+2025-07-15 14:35:13,964 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\PDD__VgFTnM.mp4
+2025-07-15 14:35:13,976 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'slow motion action'
+2025-07-15 14:39:01,806 - CinematicDatasetCollector - INFO - [YouTube] Found 28 suitable videos (under 60s) for 'slow motion action'.
+2025-07-15 14:39:01,807 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 28 videos for 'slow motion action'.
+2025-07-15 14:39:01,852 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=nIXXfBJa5uw
+2025-07-15 14:39:17,756 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\nIXXfBJa5uw.mp4
+2025-07-15 14:39:17,757 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=1pqOiYrfBRQ
+2025-07-15 14:39:22,725 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\1pqOiYrfBRQ.mp4
+2025-07-15 14:39:22,726 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=k_7FEvmd1-k
+2025-07-15 14:39:57,145 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\k_7FEvmd1-k.mp4
+2025-07-15 14:39:57,145 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=LgtQ3NL01As
+2025-07-15 14:40:11,683 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\LgtQ3NL01As.mp4
+2025-07-15 14:40:11,683 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=gMTtPNXhmJE
+2025-07-15 14:40:17,279 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\gMTtPNXhmJE.mp4
+2025-07-15 14:40:17,279 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=qZmlG1NfjRA
+2025-07-15 14:40:22,811 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\qZmlG1NfjRA.mp4
+2025-07-15 14:40:22,811 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=yx3nnqK1K0s
+2025-07-15 14:40:31,224 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\yx3nnqK1K0s.mp4
+2025-07-15 14:40:31,225 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=vEMOpTQ9AHA
+2025-07-15 14:40:53,601 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\vEMOpTQ9AHA.mp4
+2025-07-15 14:40:53,602 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=A622hyyYReI
+2025-07-15 14:40:58,540 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\A622hyyYReI.mp4
+2025-07-15 14:40:58,540 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=EBvq2T43sz8
+2025-07-15 14:41:03,491 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\EBvq2T43sz8.mp4
+2025-07-15 14:41:03,491 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=kHWCD_QfSQg
+2025-07-15 14:41:09,604 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\kHWCD_QfSQg.mp4
+2025-07-15 14:41:09,605 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=zhjrSPrYXaY
+2025-07-15 14:41:17,606 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\zhjrSPrYXaY.mp4
+2025-07-15 14:41:17,607 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=RsphcBaJsQ0
+2025-07-15 14:41:41,981 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\RsphcBaJsQ0.mp4
+2025-07-15 14:41:41,981 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=BK3dL_Z2zTk
+2025-07-15 14:41:51,115 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\BK3dL_Z2zTk.mp4
+2025-07-15 14:41:51,115 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=8zOp6CzPtvA
+2025-07-15 14:41:56,519 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\8zOp6CzPtvA.mp4
+2025-07-15 14:41:56,520 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=ZiRZ2rpLbm4
+2025-07-15 14:42:14,912 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\ZiRZ2rpLbm4.mp4
+2025-07-15 14:42:14,913 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=cWzeqgiDw8Y
+2025-07-15 14:42:21,580 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\cWzeqgiDw8Y.mp4
+2025-07-15 14:42:21,580 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=c9NThCuVjGw
+2025-07-15 14:42:36,078 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\c9NThCuVjGw.mp4
+2025-07-15 14:42:36,078 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=xSR2MQb0jWU
+2025-07-15 14:42:41,405 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\xSR2MQb0jWU.mp4
+2025-07-15 14:42:41,406 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=EwLF5zerHak
+2025-07-15 14:42:50,228 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\EwLF5zerHak.mp4
+2025-07-15 14:42:50,229 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=ylw9B-qLxa0
+2025-07-15 14:42:56,999 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\ylw9B-qLxa0.mp4
+2025-07-15 14:42:56,999 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=PBZI1xsab6w
+2025-07-15 14:43:04,590 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\PBZI1xsab6w.mp4
+2025-07-15 14:43:04,591 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=-G78YgxauQI
+2025-07-15 14:43:19,829 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\-G78YgxauQI.mp4
+2025-07-15 14:43:19,829 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=aSGIKT9vVTc
+2025-07-15 14:43:27,072 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\aSGIKT9vVTc.mp4
+2025-07-15 14:43:27,072 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=WZSryLWaMis
+2025-07-15 14:43:31,967 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\WZSryLWaMis.mp4
+2025-07-15 14:43:31,967 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=RcsNd_doXXw
+2025-07-15 14:43:37,723 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\RcsNd_doXXw.mp4
+2025-07-15 14:43:37,723 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=kAfhjevto6U
+2025-07-15 14:43:47,271 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\kAfhjevto6U.mp4
+2025-07-15 14:43:47,271 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=bl-Sg7UqcIw
+2025-07-15 14:43:55,060 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\bl-Sg7UqcIw.mp4
+2025-07-15 14:43:55,068 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'smoke effects'
+2025-07-15 14:47:42,461 - CinematicDatasetCollector - INFO - [YouTube] Found 29 suitable videos (under 60s) for 'smoke effects'.
+2025-07-15 14:47:42,461 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 29 videos for 'smoke effects'.
+2025-07-15 14:47:42,511 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=ZPX9VUsdVLM
+2025-07-15 14:47:51,522 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\ZPX9VUsdVLM.mp4
+2025-07-15 14:47:51,522 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=peJ5rRS1rUE
+2025-07-15 14:48:02,938 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\peJ5rRS1rUE.mp4
+2025-07-15 14:48:02,938 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=SaeJUCVEp2s
+2025-07-15 14:48:11,811 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\SaeJUCVEp2s.mp4
+2025-07-15 14:48:11,811 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=E3HESoGoRXU
+2025-07-15 14:48:22,404 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\E3HESoGoRXU.mp4
+2025-07-15 14:48:22,404 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=BnnBuWHfkTs
+2025-07-15 14:48:57,285 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\BnnBuWHfkTs.mp4
+2025-07-15 14:48:57,286 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=C_y-4lcIlfk
+2025-07-15 14:49:07,775 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\C_y-4lcIlfk.mp4
+2025-07-15 14:49:07,775 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=rW3vjIejvNw
+2025-07-15 14:49:14,548 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\rW3vjIejvNw.mp4
+2025-07-15 14:49:14,549 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=1yMCdzjAH8Y
+2025-07-15 14:49:24,815 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\1yMCdzjAH8Y.mp4
+2025-07-15 14:49:24,816 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=VtKSMQWXmlo
+2025-07-15 14:49:55,284 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\VtKSMQWXmlo.mp4
+2025-07-15 14:49:55,284 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=038x2qHkPHQ
+2025-07-15 14:50:01,313 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\038x2qHkPHQ.mp4
+2025-07-15 14:50:01,314 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=KuI0CN7ZvFY
+2025-07-15 14:50:14,180 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\KuI0CN7ZvFY.mp4
+2025-07-15 14:50:14,180 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=DKiIpr9tFBg
+2025-07-15 14:50:20,808 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\DKiIpr9tFBg.mp4
+2025-07-15 14:50:20,809 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=4mjwgM9vUls
+2025-07-15 14:50:33,135 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\4mjwgM9vUls.mp4
+2025-07-15 14:50:33,135 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=7dbp2VH9DcA
+2025-07-15 14:50:52,103 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\7dbp2VH9DcA.mp4
+2025-07-15 14:50:52,104 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Z7iRB-gi8bA
+2025-07-15 14:51:17,962 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Z7iRB-gi8bA.mp4
+2025-07-15 14:51:17,963 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=5rAsHyXT3Gw
+2025-07-15 14:51:27,777 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\5rAsHyXT3Gw.mp4
+2025-07-15 14:51:27,777 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=IlMsV6VYAeg
+2025-07-15 14:51:39,544 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\IlMsV6VYAeg.mp4
+2025-07-15 14:51:39,544 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=K29rlhg7n4Y
+2025-07-15 14:51:46,928 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\K29rlhg7n4Y.mp4
+2025-07-15 14:51:46,928 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=DEl2bBPxwBI
+2025-07-15 14:51:54,008 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\DEl2bBPxwBI.mp4
+2025-07-15 14:51:54,008 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=ShceUU9o-HQ
+2025-07-15 14:52:03,131 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\ShceUU9o-HQ.mp4
+2025-07-15 14:52:03,131 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=oIYkZiWyyOU
+2025-07-15 14:52:10,031 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\oIYkZiWyyOU.mp4
+2025-07-15 14:52:10,031 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=iqgWSQSrq8U
+2025-07-15 14:52:16,281 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\iqgWSQSrq8U.mp4
+2025-07-15 14:52:16,281 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=9QJvqG19T4Y
+2025-07-15 14:52:31,630 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\9QJvqG19T4Y.mp4
+2025-07-15 14:52:31,630 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=aCz_yVbuZXg
+2025-07-15 14:52:46,594 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\aCz_yVbuZXg.mp4
+2025-07-15 14:52:46,594 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=SmFzq-x4tCE
+2025-07-15 14:53:00,902 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\SmFzq-x4tCE.mp4
+2025-07-15 14:53:00,903 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=-AFuf3xReyY
+2025-07-15 14:53:08,294 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\-AFuf3xReyY.mp4
+2025-07-15 14:53:08,294 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=xRQEN4RqC0A
+2025-07-15 14:53:20,955 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\xRQEN4RqC0A.mp4
+2025-07-15 14:53:20,955 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=bbdv0bXcbks
+2025-07-15 14:53:26,230 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\bbdv0bXcbks.mp4
+2025-07-15 14:53:26,231 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=SsRaFVWVAbk
+2025-07-15 14:53:38,970 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\SsRaFVWVAbk.mp4
+2025-07-15 14:53:38,980 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'cinematic lighting'
+2025-07-15 14:56:42,409 - CinematicDatasetCollector - INFO - [YouTube] Found 13 suitable videos (under 60s) for 'cinematic lighting'.
+2025-07-15 14:56:42,410 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 13 videos for 'cinematic lighting'.
+2025-07-15 14:56:42,459 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Kf18bJLkRF8
+2025-07-15 14:56:50,333 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Kf18bJLkRF8.mp4
+2025-07-15 14:56:50,333 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=QFPf3eM0McY
+2025-07-15 14:57:12,746 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\QFPf3eM0McY.mp4
+2025-07-15 14:57:12,747 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Q8AbKS3yljM
+2025-07-15 14:57:25,079 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Q8AbKS3yljM.mp4
+2025-07-15 14:57:25,080 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Zl5FSPlugco
+2025-07-15 14:57:38,318 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Zl5FSPlugco.mp4
+2025-07-15 14:57:38,318 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=UikU6G8FAZ0
+2025-07-15 14:57:53,125 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\UikU6G8FAZ0.mp4
+2025-07-15 14:57:53,125 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=li3DO7v7yOE
+2025-07-15 14:57:57,023 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\li3DO7v7yOE.mp4
+2025-07-15 14:57:57,023 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=thsaMekpI3I
+2025-07-15 14:58:04,124 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\thsaMekpI3I.mp4
+2025-07-15 14:58:04,124 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=0a9HLbB64Ro
+2025-07-15 14:58:23,842 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\0a9HLbB64Ro.mp4
+2025-07-15 14:58:23,843 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=beM47g02ReI
+2025-07-15 14:58:40,889 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\beM47g02ReI.mp4
+2025-07-15 14:58:40,889 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Ev_xyxSC8ZI
+2025-07-15 14:58:44,682 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Ev_xyxSC8ZI.mp4
+2025-07-15 14:58:44,682 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=K8eeFQEdEiw
+2025-07-15 14:58:53,101 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\K8eeFQEdEiw.mp4
+2025-07-15 14:58:53,101 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=eAwgg-DHbgk
+2025-07-15 14:59:02,574 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\eAwgg-DHbgk.mp4
+2025-07-15 14:59:02,574 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Qa14SyjsklQ
+2025-07-15 14:59:14,432 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Qa14SyjsklQ.mp4
+2025-07-15 14:59:14,441 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'movie effects'
+2025-07-15 15:03:24,010 - CinematicDatasetCollector - INFO - [YouTube] Found 23 suitable videos (under 60s) for 'movie effects'.
+2025-07-15 15:03:24,011 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 23 videos for 'movie effects'.
+2025-07-15 15:03:24,064 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=F3uIJXMumps
+2025-07-15 15:03:33,642 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\F3uIJXMumps.mp4
+2025-07-15 15:03:33,642 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=pxZjypF9kps
+2025-07-15 15:03:48,987 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\pxZjypF9kps.mp4
+2025-07-15 15:03:48,988 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=uuXrGpbpG9I
+2025-07-15 15:04:00,924 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\uuXrGpbpG9I.mp4
+2025-07-15 15:04:00,925 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=GMHJ0L65o3w
+2025-07-15 15:04:18,217 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\GMHJ0L65o3w.mp4
+2025-07-15 15:04:18,218 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Uw6F0FooaKc
+2025-07-15 15:04:28,419 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Uw6F0FooaKc.mp4
+2025-07-15 15:04:28,419 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=t29EM4lhjL0
+2025-07-15 15:04:39,863 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\t29EM4lhjL0.mp4
+2025-07-15 15:04:39,864 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=gry_jsV0x34
+2025-07-15 15:04:50,754 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\gry_jsV0x34.mp4
+2025-07-15 15:04:50,754 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=9M27JyrJ3po
+2025-07-15 15:05:10,856 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\9M27JyrJ3po.mp4
+2025-07-15 15:05:10,857 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=HrdqH1kjroI
+2025-07-15 15:05:29,728 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\HrdqH1kjroI.mp4
+2025-07-15 15:05:29,729 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=aGyL-TEKgeQ
+2025-07-15 15:05:39,252 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\aGyL-TEKgeQ.mp4
+2025-07-15 15:05:39,252 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=B5k1fnzliRA
+2025-07-15 15:05:51,443 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\B5k1fnzliRA.mp4
+2025-07-15 15:05:51,443 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=RrDV373-2pI
+2025-07-15 15:06:01,072 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\RrDV373-2pI.mp4
+2025-07-15 15:06:01,072 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=4HGzblsccoM
+2025-07-15 15:06:15,310 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\4HGzblsccoM.mp4
+2025-07-15 15:06:15,310 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=U7f6Ntoo27s
+2025-07-15 15:06:37,408 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\U7f6Ntoo27s.mp4
+2025-07-15 15:06:37,409 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=wjE9v20to2Y
+2025-07-15 15:06:51,813 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\wjE9v20to2Y.mp4
+2025-07-15 15:06:51,814 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=jNsvJkF2AGs
+2025-07-15 15:06:56,922 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\jNsvJkF2AGs.mp4
+2025-07-15 15:06:56,922 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=7TzTbqhpGVM
+2025-07-15 15:07:06,149 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\7TzTbqhpGVM.mp4
+2025-07-15 15:07:06,150 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=5-1oMZkCCa4
+2025-07-15 15:07:19,215 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\5-1oMZkCCa4.mp4
+2025-07-15 15:07:19,215 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=Zhp0_i9wUmk
+2025-07-15 15:07:27,655 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\Zhp0_i9wUmk.mp4
+2025-07-15 15:07:27,656 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=yO5sc-ANH9c
+2025-07-15 15:07:40,818 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\yO5sc-ANH9c.mp4
+2025-07-15 15:07:40,818 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=GiPR7zW_xLc
+2025-07-15 15:07:49,867 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\GiPR7zW_xLc.mp4
+2025-07-15 15:07:49,867 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=X6F5PSihYio
+2025-07-15 15:08:00,661 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\X6F5PSihYio.mp4
+2025-07-15 15:08:00,662 - CinematicDatasetCollector - INFO - [YouTube] Downloading: https://www.youtube.com/watch?v=ICsoICS3Kwc
+2025-07-15 15:08:11,593 - CinematicDatasetCollector - INFO - [YouTube] Successfully downloaded: temp\raw_videos\ICsoICS3Kwc.mp4
+2025-07-15 15:08:11,604 - CinematicDatasetCollector - INFO - --- Running scraper: tiktok ---
+2025-07-15 15:08:11,604 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'action scene'
+2025-07-15 15:08:12,737 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 403: {"message":"You are not subscribed to this API."}
+2025-07-15 15:08:12,738 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'neon city'
+2025-07-15 15:08:13,097 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 429: {"message":"Too many requests"}
+2025-07-15 15:08:13,097 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'bullet time'
+2025-07-15 15:08:13,680 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 429: {"message":"Too many requests"}
+2025-07-15 15:08:13,680 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'explosion scene'
+2025-07-15 15:08:14,042 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 429: {"message":"Too many requests"}
+2025-07-15 15:08:14,042 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'cinematic shot'
+2025-07-15 15:08:14,395 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 429: {"message":"Too many requests"}
+2025-07-15 15:08:14,395 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'camera spin'
+2025-07-15 15:08:14,752 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 429: {"message":"Too many requests"}
+2025-07-15 15:08:14,753 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'slow motion action'
+2025-07-15 15:08:15,798 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 403: {"message":"You are not subscribed to this API."}
+2025-07-15 15:08:15,799 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'smoke effects'
+2025-07-15 15:08:16,153 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 429: {"message":"Too many requests"}
+2025-07-15 15:08:16,154 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'cinematic lighting'
+2025-07-15 15:08:16,522 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 429: {"message":"Too many requests"}
+2025-07-15 15:08:16,523 - CinematicDatasetCollector - INFO - [TikTok] Phase 1: Fetching metadata for keyword: 'movie effects'
+2025-07-15 15:08:17,154 - CinematicDatasetCollector - ERROR - [TikTok] API request failed with status code 429: {"message":"Too many requests"}
+2025-07-15 15:08:17,155 - CinematicDatasetCollector - INFO - Scraping phase complete. Downloaded a total of 188 raw videos.
+2025-07-15 15:08:17,155 - CinematicDatasetCollector - INFO - Phase 2: Processing videos - trimming, hashing, and deduplicating.
+2025-07-15 16:08:39,200 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-15 16:17:50,320 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-15 16:17:50,321 - CinematicDatasetCollector - INFO - Target clip count: 1000 clips in dataset
+2025-07-15 16:17:50,321 - CinematicDatasetCollector - INFO - Found 0 existing clips in dataset
+2025-07-15 16:17:50,322 - CinematicDatasetCollector - INFO - --- Starting Video Scraping Phase ---
+2025-07-15 16:17:50,322 - CinematicDatasetCollector - INFO - Active scrapers: ['youtube', 'tiktok']
+2025-07-15 16:17:50,322 - CinematicDatasetCollector - INFO - Scanning for existing video files...
+2025-07-15 16:17:50,323 - CinematicDatasetCollector - INFO - Found existing video: hU6usr_C_hk.mp4 (keyword: C)
+2025-07-15 16:17:50,323 - CinematicDatasetCollector - INFO - Found existing video: lP_3De0_bZ4.mp4 (keyword: 3De0)
+2025-07-15 16:17:50,323 - CinematicDatasetCollector - INFO - Found existing video: PDD__VgFTnM.mp4 (keyword: )
+2025-07-15 16:17:50,324 - CinematicDatasetCollector - INFO - Found 3 existing video files.
+2025-07-15 16:17:50,324 - CinematicDatasetCollector - INFO - Target: 1000 clips in dataset, planning to download up to 1500 videos
+2025-07-15 16:19:51,555 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-15 16:19:51,556 - CinematicDatasetCollector - INFO - Target clip count: 1000 clips in dataset
+2025-07-15 16:19:51,557 - CinematicDatasetCollector - INFO - Found 0 existing clips in dataset
+2025-07-15 16:19:51,557 - CinematicDatasetCollector - INFO - --- Starting Video Scraping Phase ---
+2025-07-15 16:19:51,557 - CinematicDatasetCollector - INFO - Active scrapers: ['youtube', 'tiktok']
+2025-07-15 16:19:51,557 - CinematicDatasetCollector - INFO - Scanning for existing video files...
+2025-07-15 16:19:51,558 - CinematicDatasetCollector - INFO - Found existing video: hU6usr_C_hk.mp4 (keyword: C)
+2025-07-15 16:19:51,558 - CinematicDatasetCollector - INFO - Found existing video: lP_3De0_bZ4.mp4 (keyword: 3De0)
+2025-07-15 16:19:51,558 - CinematicDatasetCollector - INFO - Found existing video: PDD__VgFTnM.mp4 (keyword: )
+2025-07-15 16:19:51,559 - CinematicDatasetCollector - INFO - Found 3 existing video files.
+2025-07-15 16:19:51,559 - CinematicDatasetCollector - INFO - Target: 1000 clips in dataset, planning to download up to 1500 videos
+2025-07-15 16:19:51,559 - CinematicDatasetCollector - INFO - Found 0 existing clips in dataset
+2025-07-15 16:19:51,560 - CinematicDatasetCollector - INFO - --- Running scraper: youtube ---
+2025-07-15 16:19:51,560 - CinematicDatasetCollector - INFO - Processing youtube with keyword 'action scene'
+2025-07-15 16:19:51,560 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'action scene'
+2025-07-15 16:23:29,195 - CinematicDatasetCollector - INFO - Starting Cinematic Dataset Collection pipeline.
+2025-07-15 16:23:29,195 - CinematicDatasetCollector - INFO - Target clip count: 1000 clips in dataset
+2025-07-15 16:23:29,196 - CinematicDatasetCollector - INFO - Found 0 existing clips in dataset
+2025-07-15 16:23:29,196 - CinematicDatasetCollector - INFO - --- Starting Video Scraping Phase ---
+2025-07-15 16:23:29,196 - CinematicDatasetCollector - INFO - Active scrapers: ['youtube', 'tiktok']
+2025-07-15 16:23:29,196 - CinematicDatasetCollector - INFO - Scanning for existing video files...
+2025-07-15 16:23:29,197 - CinematicDatasetCollector - INFO - Found existing video: hU6usr_C_hk.mp4 (keyword: C)
+2025-07-15 16:23:29,197 - CinematicDatasetCollector - INFO - Found existing video: lP_3De0_bZ4.mp4 (keyword: 3De0)
+2025-07-15 16:23:29,198 - CinematicDatasetCollector - INFO - Found existing video: PDD__VgFTnM.mp4 (keyword: )
+2025-07-15 16:23:29,198 - CinematicDatasetCollector - INFO - Found 3 existing video files.
+2025-07-15 16:23:29,198 - CinematicDatasetCollector - INFO - Processing 3 existing videos before downloading new ones...
+2025-07-15 16:23:33,035 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\hU6usr_C_hk.mp4. Static area: 22.63%
+2025-07-15 16:23:33,051 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\hU6usr_C_hk.mp4
+2025-07-15 16:23:33,376 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\lP_3De0_bZ4.mp4. Static area: 33.61%
+2025-07-15 16:23:33,389 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\lP_3De0_bZ4.mp4
+2025-07-15 16:23:37,889 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\PDD__VgFTnM.mp4. Static area: 18.84%
+2025-07-15 16:23:37,911 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\PDD__VgFTnM.mp4
+2025-07-15 16:23:37,912 - CinematicDatasetCollector - INFO - Target: 1000 clips in dataset, planning to download up to 1500 videos
+2025-07-15 16:23:37,913 - CinematicDatasetCollector - INFO - Loaded video count: 3 videos already downloaded
+2025-07-15 16:23:37,913 - CinematicDatasetCollector - INFO - Found 0 existing clips in dataset
+2025-07-15 16:23:37,914 - CinematicDatasetCollector - INFO - --- Running scraper: youtube ---
+2025-07-15 16:23:37,914 - CinematicDatasetCollector - INFO - Processing youtube with keyword 'action scene'
+2025-07-15 16:23:37,914 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'action scene'
+2025-07-15 16:27:23,442 - CinematicDatasetCollector - INFO - [YouTube] Found 13 suitable videos (under 60s) for 'action scene'.
+2025-07-15 16:27:23,442 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 13 videos for keyword: 'action scene'
+2025-07-15 16:27:31,753 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 1/13 for 'action scene'
+2025-07-15 16:27:38,475 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 2/13 for 'action scene'
+2025-07-15 16:27:45,573 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 3/13 for 'action scene'
+2025-07-15 16:27:52,773 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 4/13 for 'action scene'
+2025-07-15 16:27:58,916 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 5/13 for 'action scene'
+2025-07-15 16:28:07,659 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 6/13 for 'action scene'
+2025-07-15 16:28:15,785 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 7/13 for 'action scene'
+2025-07-15 16:28:23,005 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 8/13 for 'action scene'
+2025-07-15 16:28:30,790 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 9/13 for 'action scene'
+2025-07-15 16:28:37,383 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 10/13 for 'action scene'
+2025-07-15 16:28:44,873 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 11/13 for 'action scene'
+2025-07-15 16:28:52,170 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 12/13 for 'action scene'
+2025-07-15 16:29:00,356 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 13/13 for 'action scene'
+2025-07-15 16:29:00,365 - CinematicDatasetCollector - INFO - Total videos downloaded so far: 16/1500
+2025-07-15 16:29:00,365 - CinematicDatasetCollector - INFO - Processing 13 videos for keyword 'action scene'
+2025-07-15 16:29:00,515 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_KtBbjktTcxc.mp4. Static area: 74.92%
+2025-07-15 16:29:00,523 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_KtBbjktTcxc.mp4
+2025-07-15 16:29:01,490 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_hU6usr_C_hk.mp4. Static area: 25.45%
+2025-07-15 16:29:01,496 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_hU6usr_C_hk.mp4
+2025-07-15 16:29:02,009 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_V4FXOAG4B8o.mp4. Static area: 34.32%
+2025-07-15 16:29:02,014 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_V4FXOAG4B8o.mp4
+2025-07-15 16:29:02,658 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_ewhAN1GNHgE.mp4. Static area: 20.69%
+2025-07-15 16:29:02,665 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_ewhAN1GNHgE.mp4
+2025-07-15 16:29:02,910 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_6Lt7NVjTUv0.mp4. Static area: 19.49%
+2025-07-15 16:29:02,915 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_6Lt7NVjTUv0.mp4
+2025-07-15 16:29:03,917 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_mO83fE6KzCE.mp4. Static area: 14.95%
+2025-07-15 16:29:03,924 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_mO83fE6KzCE.mp4
+2025-07-15 16:29:04,724 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_n6zFP3seKRc.mp4. Static area: 12.75%
+2025-07-15 16:29:04,729 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_n6zFP3seKRc.mp4
+2025-07-15 16:29:05,332 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_SO3eQMAPRvY.mp4. Static area: 69.02%
+2025-07-15 16:29:05,337 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_SO3eQMAPRvY.mp4
+2025-07-15 16:29:05,487 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_Dc_pK3NkFrk.mp4. Static area: 5.71%
+2025-07-15 16:29:05,492 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_Dc_pK3NkFrk.mp4
+2025-07-15 16:29:05,945 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_jNFWdkyAMLY.mp4. Static area: 7.35%
+2025-07-15 16:29:05,950 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_jNFWdkyAMLY.mp4
+2025-07-15 16:29:06,294 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_av8EKIfh4Y8.mp4. Static area: 9.36%
+2025-07-15 16:29:06,299 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_av8EKIfh4Y8.mp4
+2025-07-15 16:29:06,557 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_WWxICyEXSiQ.mp4. Static area: 38.23%
+2025-07-15 16:29:06,562 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_WWxICyEXSiQ.mp4
+2025-07-15 16:29:06,953 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_action_scene_yHII1N7dS8E.mp4. Static area: 28.46%
+2025-07-15 16:29:06,958 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_action_scene_yHII1N7dS8E.mp4
+2025-07-15 16:29:06,958 - CinematicDatasetCollector - INFO - Processing youtube with keyword 'neon city'
+2025-07-15 16:29:06,959 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'neon city'
+2025-07-15 16:32:33,240 - CinematicDatasetCollector - INFO - [YouTube] Found 7 suitable videos (under 60s) for 'neon city'.
+2025-07-15 16:32:33,240 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 7 videos for keyword: 'neon city'
+2025-07-15 16:32:40,080 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 1/7 for 'neon city'
+2025-07-15 16:32:52,470 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 2/7 for 'neon city'
+2025-07-15 16:32:59,614 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 3/7 for 'neon city'
+2025-07-15 16:33:05,276 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 4/7 for 'neon city'
+2025-07-15 16:33:12,434 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 5/7 for 'neon city'
+2025-07-15 16:33:18,113 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 6/7 for 'neon city'
+2025-07-15 16:33:24,765 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 7/7 for 'neon city'
+2025-07-15 16:33:24,770 - CinematicDatasetCollector - INFO - Total videos downloaded so far: 23/1500
+2025-07-15 16:33:24,770 - CinematicDatasetCollector - INFO - Processing 7 videos for keyword 'neon city'
+2025-07-15 16:33:24,910 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_neon_city_4j9AdROusz8.mp4. Static area: 15.83%
+2025-07-15 16:33:24,916 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_neon_city_4j9AdROusz8.mp4
+2025-07-15 16:33:25,081 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_neon_city_lP_3De0_bZ4.mp4. Static area: 5.01%
+2025-07-15 16:33:25,091 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_neon_city_lP_3De0_bZ4.mp4
+2025-07-15 16:33:25,447 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_neon_city_HaNhdJXqxLA.mp4. Static area: 17.38%
+2025-07-15 16:33:25,451 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_neon_city_HaNhdJXqxLA.mp4
+2025-07-15 16:33:25,583 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_neon_city_l2OxQojs6WE.mp4. Static area: 24.89%
+2025-07-15 16:33:25,588 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_neon_city_l2OxQojs6WE.mp4
+2025-07-15 16:33:25,712 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_neon_city_aiZJcDIr1Zo.mp4. Static area: 31.86%
+2025-07-15 16:33:25,718 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_neon_city_aiZJcDIr1Zo.mp4
+2025-07-15 16:33:26,482 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_neon_city_x7VvELLnzH0.mp4. Static area: 84.27%
+2025-07-15 16:33:26,489 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_neon_city_x7VvELLnzH0.mp4
+2025-07-15 16:33:26,651 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_neon_city_YyLqIHTlF-c.mp4. Static area: 30.86%
+2025-07-15 16:33:26,662 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_neon_city_YyLqIHTlF-c.mp4
+2025-07-15 16:33:26,663 - CinematicDatasetCollector - INFO - Processing youtube with keyword 'bullet time'
+2025-07-15 16:33:26,664 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'bullet time'
+2025-07-15 16:36:07,203 - CinematicDatasetCollector - INFO - [YouTube] Found 24 suitable videos (under 60s) for 'bullet time'.
+2025-07-15 16:36:07,204 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 24 videos for keyword: 'bullet time'
+2025-07-15 16:36:13,236 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 1/24 for 'bullet time'
+2025-07-15 16:36:24,506 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 2/24 for 'bullet time'
+2025-07-15 16:36:31,614 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 3/24 for 'bullet time'
+2025-07-15 16:36:40,998 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 4/24 for 'bullet time'
+2025-07-15 16:36:55,139 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 5/24 for 'bullet time'
+2025-07-15 16:37:05,012 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 6/24 for 'bullet time'
+2025-07-15 16:37:12,753 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 7/24 for 'bullet time'
+2025-07-15 16:37:17,621 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 8/24 for 'bullet time'
+2025-07-15 16:37:24,820 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 9/24 for 'bullet time'
+2025-07-15 16:37:31,682 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 10/24 for 'bullet time'
+2025-07-15 16:37:38,640 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 11/24 for 'bullet time'
+2025-07-15 16:37:46,388 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 12/24 for 'bullet time'
+2025-07-15 16:37:51,003 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 13/24 for 'bullet time'
+2025-07-15 16:37:57,371 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 14/24 for 'bullet time'
+2025-07-15 16:38:03,452 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 15/24 for 'bullet time'
+2025-07-15 16:38:10,551 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 16/24 for 'bullet time'
+2025-07-15 16:38:17,717 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 17/24 for 'bullet time'
+2025-07-15 16:38:23,760 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 18/24 for 'bullet time'
+2025-07-15 16:38:29,047 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 19/24 for 'bullet time'
+2025-07-15 16:38:37,603 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 20/24 for 'bullet time'
+2025-07-15 16:38:42,609 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 21/24 for 'bullet time'
+2025-07-15 16:38:50,913 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 22/24 for 'bullet time'
+2025-07-15 16:38:58,236 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 23/24 for 'bullet time'
+2025-07-15 16:39:04,022 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 24/24 for 'bullet time'
+2025-07-15 16:39:04,029 - CinematicDatasetCollector - INFO - Total videos downloaded so far: 47/1500
+2025-07-15 16:39:04,029 - CinematicDatasetCollector - INFO - Processing 24 videos for keyword 'bullet time'
+2025-07-15 16:39:04,893 - CinematicDatasetCollector - WARNING - Not enough features to compare frames in temp\raw_videos\youtube_bullet_time_kOUqERTL1g0.mp4
+2025-07-15 16:39:04,900 - CinematicDatasetCollector - ERROR - Error processing video temp\raw_videos\youtube_bullet_time_kOUqERTL1g0.mp4: 'max_clip_duration'
+2025-07-15 16:39:05,217 - CinematicDatasetCollector - INFO - Not enough matches to align frames in temp\raw_videos\youtube_bullet_time_fCb8ECt5eUE.mp4. Assuming no static elements.
+2025-07-15 16:39:05,227 - CinematicDatasetCollector - ERROR - Error processing video temp\raw_videos\youtube_bullet_time_fCb8ECt5eUE.mp4: 'max_clip_duration'
+2025-07-15 16:39:05,366 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_at-tkCISupU.mp4. Static area: 93.88%
+2025-07-15 16:39:05,373 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_at-tkCISupU.mp4
+2025-07-15 16:39:05,564 - CinematicDatasetCollector - INFO - Not enough matches to align frames in temp\raw_videos\youtube_bullet_time_6YaL6-8DWQo.mp4. Assuming no static elements.
+2025-07-15 16:39:05,572 - CinematicDatasetCollector - ERROR - Error processing video temp\raw_videos\youtube_bullet_time_6YaL6-8DWQo.mp4: 'max_clip_duration'
+2025-07-15 16:39:05,821 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_BxhA0vKyZVk.mp4. Static area: 25.49%
+2025-07-15 16:39:05,829 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_BxhA0vKyZVk.mp4
+2025-07-15 16:39:06,203 - CinematicDatasetCollector - INFO - Not enough matches to align frames in temp\raw_videos\youtube_bullet_time_2V8NgEZauIM.mp4. Assuming no static elements.
+2025-07-15 16:39:06,213 - CinematicDatasetCollector - ERROR - Error processing video temp\raw_videos\youtube_bullet_time_2V8NgEZauIM.mp4: 'max_clip_duration'
+2025-07-15 16:39:06,365 - CinematicDatasetCollector - WARNING - Not enough features to compare frames in temp\raw_videos\youtube_bullet_time_23HNh6RFFY8.mp4
+2025-07-15 16:39:06,373 - CinematicDatasetCollector - ERROR - Error processing video temp\raw_videos\youtube_bullet_time_23HNh6RFFY8.mp4: 'max_clip_duration'
+2025-07-15 16:39:06,496 - CinematicDatasetCollector - ERROR - Error processing video temp\raw_videos\youtube_bullet_time_WhxbYTMNMxo.mp4: 'max_clip_duration'
+2025-07-15 16:39:06,664 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_gRVImYiuvYM.mp4. Static area: 3.47%
+2025-07-15 16:39:06,673 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_gRVImYiuvYM.mp4
+2025-07-15 16:39:06,788 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_6UZIeJHBshY.mp4. Static area: 21.35%
+2025-07-15 16:39:06,794 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_6UZIeJHBshY.mp4
+2025-07-15 16:39:06,957 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time__lSGnQiNMwI.mp4. Static area: 17.23%
+2025-07-15 16:39:06,964 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time__lSGnQiNMwI.mp4
+2025-07-15 16:39:07,137 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_UyoX-8hl10E.mp4. Static area: 25.88%
+2025-07-15 16:39:07,149 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_UyoX-8hl10E.mp4
+2025-07-15 16:39:07,470 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_U4Q7VQg3b5E.mp4. Static area: 81.61%
+2025-07-15 16:39:07,473 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_U4Q7VQg3b5E.mp4
+2025-07-15 16:39:08,003 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_bAinQeaf288.mp4. Static area: 15.93%
+2025-07-15 16:39:08,009 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_bAinQeaf288.mp4
+2025-07-15 16:39:08,168 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_V0c8ozPB27s.mp4. Static area: 11.97%
+2025-07-15 16:39:08,173 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_V0c8ozPB27s.mp4
+2025-07-15 16:39:08,337 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_HF5BS0Y6hNs.mp4. Static area: 11.69%
+2025-07-15 16:39:08,342 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_HF5BS0Y6hNs.mp4
+2025-07-15 16:39:08,399 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_bDgnxo1Bjp4.mp4. Static area: 93.02%
+2025-07-15 16:39:08,402 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_bDgnxo1Bjp4.mp4
+2025-07-15 16:39:08,504 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_Coog8CO_dJg.mp4. Static area: 48.53%
+2025-07-15 16:39:08,509 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_Coog8CO_dJg.mp4
+2025-07-15 16:39:08,876 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_niFzoRMI64k.mp4. Static area: 12.27%
+2025-07-15 16:39:08,880 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_niFzoRMI64k.mp4
+2025-07-15 16:39:08,958 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_s7gN5Z7YUmI.mp4. Static area: 42.96%
+2025-07-15 16:39:08,961 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_s7gN5Z7YUmI.mp4
+2025-07-15 16:39:09,593 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_SXNXXD8r0vY.mp4. Static area: 17.73%
+2025-07-15 16:39:09,600 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_SXNXXD8r0vY.mp4
+2025-07-15 16:39:09,699 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_IKBzBAp1geI.mp4. Static area: 22.31%
+2025-07-15 16:39:09,702 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_IKBzBAp1geI.mp4
+2025-07-15 16:39:09,812 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_R9ck2sDn6no.mp4. Static area: 17.21%
+2025-07-15 16:39:09,816 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_R9ck2sDn6no.mp4
+2025-07-15 16:39:10,624 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_bullet_time_8Fn2AZZBht4.mp4. Static area: 12.58%
+2025-07-15 16:39:10,628 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_bullet_time_8Fn2AZZBht4.mp4
+2025-07-15 16:39:10,628 - CinematicDatasetCollector - INFO - Processing youtube with keyword 'explosion scene'
+2025-07-15 16:39:10,628 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'explosion scene'
+2025-07-15 16:41:50,665 - CinematicDatasetCollector - INFO - [YouTube] Found 14 suitable videos (under 60s) for 'explosion scene'.
+2025-07-15 16:41:50,666 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 14 videos for keyword: 'explosion scene'
+2025-07-15 16:42:00,370 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 1/14 for 'explosion scene'
+2025-07-15 16:42:09,141 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 2/14 for 'explosion scene'
+2025-07-15 16:42:18,975 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 3/14 for 'explosion scene'
+2025-07-15 16:42:25,700 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 4/14 for 'explosion scene'
+2025-07-15 16:42:36,941 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 5/14 for 'explosion scene'
+2025-07-15 16:42:44,566 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 6/14 for 'explosion scene'
+2025-07-15 16:42:59,784 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 7/14 for 'explosion scene'
+2025-07-15 16:43:07,394 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 8/14 for 'explosion scene'
+2025-07-15 16:43:17,006 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 9/14 for 'explosion scene'
+2025-07-15 16:43:27,515 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 10/14 for 'explosion scene'
+2025-07-15 16:43:38,611 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 11/14 for 'explosion scene'
+2025-07-15 16:43:44,907 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 12/14 for 'explosion scene'
+2025-07-15 16:43:50,302 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 13/14 for 'explosion scene'
+2025-07-15 16:43:56,581 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 14/14 for 'explosion scene'
+2025-07-15 16:43:56,586 - CinematicDatasetCollector - INFO - Total videos downloaded so far: 61/1500
+2025-07-15 16:43:56,586 - CinematicDatasetCollector - INFO - Processing 14 videos for keyword 'explosion scene'
+2025-07-15 16:43:56,774 - CinematicDatasetCollector - WARNING - Not enough features to compare frames in temp\raw_videos\youtube_explosion_scene_mVNA-fUb9gg.mp4
+2025-07-15 16:43:56,779 - CinematicDatasetCollector - ERROR - Error processing video temp\raw_videos\youtube_explosion_scene_mVNA-fUb9gg.mp4: 'max_clip_duration'
+2025-07-15 16:43:56,937 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_LeY0ve9j8nw.mp4. Static area: 6.64%
+2025-07-15 16:43:56,943 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_LeY0ve9j8nw.mp4
+2025-07-15 16:43:57,189 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_EaqDptraCEk.mp4. Static area: 12.57%
+2025-07-15 16:43:57,198 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_EaqDptraCEk.mp4
+2025-07-15 16:43:57,602 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_noY-Sd0DZqM.mp4. Static area: 28.12%
+2025-07-15 16:43:57,609 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_noY-Sd0DZqM.mp4
+2025-07-15 16:43:57,812 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_lO2-YxWkRxk.mp4. Static area: 25.25%
+2025-07-15 16:43:57,818 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_lO2-YxWkRxk.mp4
+2025-07-15 16:43:57,957 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_PESfnbr9I58.mp4. Static area: 28.16%
+2025-07-15 16:43:57,961 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_PESfnbr9I58.mp4
+2025-07-15 16:43:58,127 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_9dZ1tqjC4j0.mp4. Static area: 15.70%
+2025-07-15 16:43:58,136 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_9dZ1tqjC4j0.mp4
+2025-07-15 16:43:58,201 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_y0FnfGblLr8.mp4. Static area: 79.90%
+2025-07-15 16:43:58,205 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_y0FnfGblLr8.mp4
+2025-07-15 16:43:58,399 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_evnZ0tgqoKQ.mp4. Static area: 46.43%
+2025-07-15 16:43:58,404 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_evnZ0tgqoKQ.mp4
+2025-07-15 16:43:58,652 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_f2oq7cwKXCg.mp4. Static area: 37.96%
+2025-07-15 16:43:58,659 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_f2oq7cwKXCg.mp4
+2025-07-15 16:43:58,791 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_z4o_oz-k7fQ.mp4. Static area: 9.38%
+2025-07-15 16:43:58,795 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_z4o_oz-k7fQ.mp4
+2025-07-15 16:44:00,205 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_Hd6Z_pGx9_4.mp4. Static area: 18.92%
+2025-07-15 16:44:00,211 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_Hd6Z_pGx9_4.mp4
+2025-07-15 16:44:00,751 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_1I8KYkA-dnU.mp4. Static area: 21.18%
+2025-07-15 16:44:00,755 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_1I8KYkA-dnU.mp4
+2025-07-15 16:44:00,904 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_explosion_scene_7kihSwo-KdM.mp4. Static area: 50.39%
+2025-07-15 16:44:00,909 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_explosion_scene_7kihSwo-KdM.mp4
+2025-07-15 16:44:00,910 - CinematicDatasetCollector - INFO - Processing youtube with keyword 'cinematic shot'
+2025-07-15 16:44:00,910 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'cinematic shot'
+2025-07-15 16:46:54,627 - CinematicDatasetCollector - INFO - [YouTube] Found 18 suitable videos (under 60s) for 'cinematic shot'.
+2025-07-15 16:46:54,627 - CinematicDatasetCollector - INFO - [YouTube] Phase 2: Downloading 18 videos for keyword: 'cinematic shot'
+2025-07-15 16:47:00,878 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 1/18 for 'cinematic shot'
+2025-07-15 16:47:06,264 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 2/18 for 'cinematic shot'
+2025-07-15 16:47:10,484 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 3/18 for 'cinematic shot'
+2025-07-15 16:47:20,853 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 4/18 for 'cinematic shot'
+2025-07-15 16:47:25,561 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 5/18 for 'cinematic shot'
+2025-07-15 16:47:29,610 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 6/18 for 'cinematic shot'
+2025-07-15 16:47:33,954 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 7/18 for 'cinematic shot'
+2025-07-15 16:47:38,747 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 8/18 for 'cinematic shot'
+2025-07-15 16:47:46,646 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 9/18 for 'cinematic shot'
+2025-07-15 16:47:51,603 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 10/18 for 'cinematic shot'
+2025-07-15 16:47:56,578 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 11/18 for 'cinematic shot'
+2025-07-15 16:48:01,344 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 12/18 for 'cinematic shot'
+2025-07-15 16:48:06,800 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 13/18 for 'cinematic shot'
+2025-07-15 16:48:12,695 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 14/18 for 'cinematic shot'
+2025-07-15 16:48:18,475 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 15/18 for 'cinematic shot'
+2025-07-15 16:48:27,419 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 16/18 for 'cinematic shot'
+2025-07-15 16:48:32,960 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 17/18 for 'cinematic shot'
+2025-07-15 16:48:39,715 - CinematicDatasetCollector - INFO - [YouTube] Downloaded video 18/18 for 'cinematic shot'
+2025-07-15 16:48:39,725 - CinematicDatasetCollector - INFO - Total videos downloaded so far: 79/1500
+2025-07-15 16:48:39,725 - CinematicDatasetCollector - INFO - Processing 18 videos for keyword 'cinematic shot'
+2025-07-15 16:48:40,015 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_2KUBmVNVh-E.mp4. Static area: 80.02%
+2025-07-15 16:48:40,019 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_2KUBmVNVh-E.mp4
+2025-07-15 16:48:40,288 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_Ev_xyxSC8ZI.mp4. Static area: 74.35%
+2025-07-15 16:48:40,293 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_Ev_xyxSC8ZI.mp4
+2025-07-15 16:48:40,498 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_yOZ2dnA4j8o.mp4. Static area: 23.69%
+2025-07-15 16:48:40,501 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_yOZ2dnA4j8o.mp4
+2025-07-15 16:48:40,802 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_DTGNlk2cXa0.mp4. Static area: 22.11%
+2025-07-15 16:48:40,808 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_DTGNlk2cXa0.mp4
+2025-07-15 16:48:41,072 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_izv3SiAWhlo.mp4. Static area: 17.52%
+2025-07-15 16:48:41,075 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_izv3SiAWhlo.mp4
+2025-07-15 16:48:41,359 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_prxKHGZ7V1A.mp4. Static area: 52.65%
+2025-07-15 16:48:41,362 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_prxKHGZ7V1A.mp4
+2025-07-15 16:48:41,777 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot__xORAnJpxLA.mp4. Static area: 43.32%
+2025-07-15 16:48:41,780 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot__xORAnJpxLA.mp4
+2025-07-15 16:48:42,159 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_li3DO7v7yOE.mp4. Static area: 53.31%
+2025-07-15 16:48:42,163 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_li3DO7v7yOE.mp4
+2025-07-15 16:48:42,359 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_I3rK6NYrJXQ.mp4. Static area: 14.87%
+2025-07-15 16:48:42,365 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_I3rK6NYrJXQ.mp4
+2025-07-15 16:48:42,824 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_M_M9k8NPJ3k.mp4. Static area: 13.50%
+2025-07-15 16:48:42,829 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_M_M9k8NPJ3k.mp4
+2025-07-15 16:48:43,453 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_lHDIsCGBeHw.mp4. Static area: 16.49%
+2025-07-15 16:48:43,456 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_lHDIsCGBeHw.mp4
+2025-07-15 16:48:44,077 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_5-o34Zrpra0.mp4. Static area: 26.72%
+2025-07-15 16:48:44,081 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_5-o34Zrpra0.mp4
+2025-07-15 16:48:44,188 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_h8NstyJWyB0.mp4. Static area: 9.10%
+2025-07-15 16:48:44,191 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_h8NstyJWyB0.mp4
+2025-07-15 16:48:44,557 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_dOOwwTkk3wo.mp4. Static area: 50.84%
+2025-07-15 16:48:44,561 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_dOOwwTkk3wo.mp4
+2025-07-15 16:48:44,931 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_UikU6G8FAZ0.mp4. Static area: 47.24%
+2025-07-15 16:48:44,935 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_UikU6G8FAZ0.mp4
+2025-07-15 16:48:45,250 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_tcuQPpHxdII.mp4. Static area: 28.04%
+2025-07-15 16:48:45,257 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_tcuQPpHxdII.mp4
+2025-07-15 16:48:45,598 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_ZF5GpEFF7uA.mp4. Static area: 8.43%
+2025-07-15 16:48:45,601 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_ZF5GpEFF7uA.mp4
+2025-07-15 16:48:45,857 - CinematicDatasetCollector - INFO - Potential watermark detected in temp\raw_videos\youtube_cinematic_shot_7SfvFOp4qmk.mp4. Static area: 10.30%
+2025-07-15 16:48:45,860 - CinematicDatasetCollector - INFO - Skipping video (watermark detected): temp\raw_videos\youtube_cinematic_shot_7SfvFOp4qmk.mp4
+2025-07-15 16:48:45,860 - CinematicDatasetCollector - INFO - Processing youtube with keyword 'camera spin'
+2025-07-15 16:48:45,861 - CinematicDatasetCollector - INFO - [YouTube] Phase 1: Fetching metadata for keyword: 'camera spin'
