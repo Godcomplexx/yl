@@ -36,7 +36,14 @@ def process_video(video_meta, config, dataset_dir, hashes_file, clip_id_counter,
         tuple: (clip_meta, new_clip_id_counter) - метаданные клипа и обновленный счетчик, или (None, clip_id_counter) если клип не создан
     """
     raw_filepath = Path(video_meta['filepath'])
-    keyword_tag = video_meta['keyword'].replace(' ', '_')  # Sanitize tag for folder name
+    
+    # Создаем стандартизированный тег для категории
+    # Берем только первые два слова из ключевого слова, чтобы избежать разных вариаций
+    keyword_parts = video_meta['keyword'].split()
+    if len(keyword_parts) > 2:
+        keyword_parts = keyword_parts[:2]  # Берем только первые два слова
+    
+    keyword_tag = '_'.join(keyword_parts).lower()  # Приводим к нижнему регистру
     
     try:
         # 1. Проверяем длительность видео
@@ -54,11 +61,13 @@ def process_video(video_meta, config, dataset_dir, hashes_file, clip_id_counter,
                 return None, clip_id_counter
 
         # 3. Создаем клип
-        clip_duration = min(duration, config['processing']['max_clip_duration'])
+        clip_duration = min(duration, config['processing'].get('clip_duration', 5))  # По умолчанию 5 секунд
         clip_id = f"clip_{clip_id_counter:04d}"
         clip_id_counter += 1
         
         # Создаем директорию для категории
+        # Используем полное ключевое слово для уникальности
+        # Избегаем создания папок с одинаковыми названиями
         category_dir = dataset_dir / keyword_tag
         category_dir.mkdir(exist_ok=True)
         
@@ -66,10 +75,15 @@ def process_video(video_meta, config, dataset_dir, hashes_file, clip_id_counter,
         clip_path = category_dir / f"{clip_id}.mp4"
         
         # Обрезаем видео
-        trim_video(raw_filepath, clip_path, clip_duration)
+        result_path, actual_duration = trim_video(raw_filepath, clip_path, clip_duration)
+        
+        # Проверяем успешность обрезки
+        if result_path is None:
+            log.info(f"Failed to trim video: {raw_filepath}")
+            return None, clip_id_counter
         
         # 4. Проверяем на дубликаты
-        video_hash = calculate_video_hash(clip_path)
+        video_hash = calculate_video_hash(result_path)
         if is_duplicate(str(video_hash)):
             log.info(f"Skipping clip (duplicate detected): {clip_path}")
             clip_path.unlink(missing_ok=True)  # Удаляем дубликат
@@ -81,9 +95,9 @@ def process_video(video_meta, config, dataset_dir, hashes_file, clip_id_counter,
         # Создаем метаданные клипа
         clip_meta = {
             'id': clip_id,
-            'path': str(clip_path),
+            'path': str(result_path),  # Используем фактический путь к файлу
             'tag': keyword_tag,
-            'duration': clip_duration,
+            'duration': actual_duration,  # Используем фактическую длительность
             'source': video_meta.get('source', 'unknown'),
             'keyword': video_meta['keyword']
         }
@@ -97,7 +111,13 @@ def process_video(video_meta, config, dataset_dir, hashes_file, clip_id_counter,
 
 
 def main():
-    """Main function to run the dataset collection pipeline."""
+    """Main function to run the dataset collection pipeline.
+    
+    Процесс работы:
+    1. Проверяет существующие видео в папке raw_videos_dir
+    2. Обрабатывает существующие видео (нарезка, проверка водяных знаков, дедупликация)
+    3. Продолжает скачивать новые видео, пока не будет достигнуто 1000 верифицированных клипов
+    """
     # 1. Load Configuration
     with open('config.yaml', 'r') as f:
         config = yaml.safe_load(f)
@@ -120,8 +140,8 @@ def main():
     load_hashes(hashes_file)
     
     # Устанавливаем целевое количество клипов в датасете
-    target_clip_count = config.get('target_clip_count', 1000)  # По умолчанию 1000 клипов
-    log.info(f"Target clip count: {target_clip_count} clips in dataset")
+    target_clip_count = config.get('target_clip_count', 1000)  # По умолчанию 1000 верифицированных клипов
+    log.info(f"Target clip count: {target_clip_count} verified clips in dataset")
     
     # Загружаем счетчик клипов
     clip_counter_file = Path('temp/clip_counter.txt')
@@ -161,19 +181,51 @@ def main():
     
     # Загружаем информацию о уже обработанных ключевых словах и скраперах
     processed_items = set()
-    if progress_file.exists():
-        with open(progress_file, 'r') as f:
-            for line in f:
-                processed_items.add(line.strip())
-        log.info(f"Found progress file with {len(processed_items)} processed items.")
+    
+    # Если мы еще не достигли целевого количества клипов, сбрасываем метки прогресса
+    if existing_clips_count < target_clip_count:
+        # Сбрасываем файл прогресса, чтобы повторно обработать все комбинации
+        if progress_file.exists():
+            log.info(f"Target clip count not reached ({existing_clips_count}/{target_clip_count}). Resetting scraping progress to download more videos.")
+            # Создаем резервную копию файла прогресса
+            backup_file = Path('temp/scraping_progress_backup.txt')
+            if progress_file.exists():
+                import shutil
+                shutil.copy(progress_file, backup_file)
+            # Очищаем файл прогресса
+            with open(progress_file, 'w') as f:
+                f.write("")
+    else:
+        # Если целевое количество клипов достигнуто, загружаем прогресс как обычно
+        if progress_file.exists():
+            with open(progress_file, 'r') as f:
+                for line in f:
+                    processed_items.add(line.strip())
+            log.info(f"Found progress file with {len(processed_items)} processed items.")
     
     # Загружаем информацию о уже обработанных видео
     processed_videos = set()
-    if processing_progress_file.exists():
-        with open(processing_progress_file, 'r') as f:
-            for line in f:
-                processed_videos.add(line.strip())
-        log.info(f"Found processing progress file with {len(processed_videos)} processed videos.")
+    
+    # Если мы еще не достигли целевого количества клипов, сбрасываем метки обработанных видео
+    if existing_clips_count < target_clip_count:
+        # Сбрасываем файл прогресса обработки видео
+        if processing_progress_file.exists():
+            log.info(f"Target clip count not reached ({existing_clips_count}/{target_clip_count}). Resetting video processing progress to reprocess videos.")
+            # Создаем резервную копию файла прогресса
+            backup_file = Path('temp/processing_progress_backup.txt')
+            if processing_progress_file.exists():
+                import shutil
+                shutil.copy(processing_progress_file, backup_file)
+            # Очищаем файл прогресса
+            with open(processing_progress_file, 'w') as f:
+                f.write("")
+    else:
+        # Если целевое количество клипов достигнуто, загружаем прогресс как обычно
+        if processing_progress_file.exists():
+            with open(processing_progress_file, 'r') as f:
+                for line in f:
+                    processed_videos.add(line.strip())
+            log.info(f"Found processing progress file with {len(processed_videos)} processed videos.")
         
     # Собираем информацию о существующих видеофайлах
     existing_videos = []
@@ -186,8 +238,21 @@ def main():
                 parts = filename.split('_')
                 if len(parts) >= 3:
                     source = parts[0]
-                    video_id = parts[-1]
-                    keyword = '_'.join(parts[1:-1]).replace('_', ' ')
+                    # Исправляем разбор имени файла
+                    # Формат: source_keyword1_keyword2_..._videoID.mp4
+                    # Предполагаем, что видео ID не содержит точек
+                    # Ищем последнюю часть имени файла до точки
+                    filename_without_ext = video_file.stem
+                    parts = filename_without_ext.split('_')
+                    source = parts[0]
+                    
+                    # Используем фиксированные позиции для ключевых слов
+                    # Предполагаем, что ключевые слова всегда идут после источника и перед ID
+                    if len(parts) >= 3:
+                        # Последний элемент - ID видео
+                        video_id = parts[-1]
+                        # Все элементы между источником и ID - ключевые слова
+                        keyword = ' '.join(parts[1:-1])
                     
                     video_meta = {
                         'id': video_id,
@@ -206,10 +271,13 @@ def main():
     # Обрабатываем существующие видео перед скачиванием новых
     if existing_videos:
         log.info(f"Processing {len(existing_videos)} existing videos before downloading new ones...")
+        log.info(f"Current verified clips: {existing_clips_count}/{target_clip_count}")
         for video_meta in tqdm(existing_videos, desc="Processing existing videos"):
             # Проверяем, не обрабатывали ли мы уже это видео
             video_id = f"{video_meta['source']}_{video_meta['id']}"
-            if video_id in processed_videos:
+            
+            # Если целевое количество клипов не достигнуто, обрабатываем даже уже обработанные видео
+            if video_id in processed_videos and existing_clips_count >= target_clip_count:
                 log.info(f"Video {video_id} already processed, skipping")
                 continue
             
@@ -225,11 +293,13 @@ def main():
                 final_clips.append(clip_meta)
                 existing_clips_count += 1
                 log.info(f"Clips in dataset: {existing_clips_count}/{target_clip_count}")
-            
-            # Отмечаем видео как обработанное
-            with open(processing_progress_file, 'a') as f:
-                f.write(f"{video_id}\n")
-            processed_videos.add(video_id)
+                
+                # Отмечаем видео как успешно обработанное только если клип был создан
+                with open(processing_progress_file, 'a') as f:
+                    f.write(f"{video_id}\n")
+                processed_videos.add(video_id)
+            else:
+                log.info(f"Video {video_id} processing failed, will retry on next run")
             
             # Проверяем достижение целевого количества клипов
             if existing_clips_count >= target_clip_count:
@@ -241,9 +311,9 @@ def main():
                 log.info(f"Created a total of {len(final_clips)} clips.")
                 log.info(f"Final clip count: {existing_clips_count}/{target_clip_count}")
                 return
+            # Если целевое количество клипов не достигнуто, продолжаем работу
     
-    # Устанавливаем целевое количество клипов в датасете
-    target_clip_count = config.get('target_clip_count', 1000)  # По умолчанию 1000 клипов
+    # Целевое количество клипов уже установлено выше (target_clip_count = 1000)
     
     # Коэффициент запаса - сколько видео нужно скачать для получения целевого количества клипов
     margin_factor = config.get('video_margin_factor', 1.5)
@@ -263,12 +333,13 @@ def main():
         except Exception as e:
             log.warning(f"Could not load video count: {e}")
     
-    # Загружаем информацию о существующих клипах в датасете
-    existing_clips_count = 0
+    # Обновляем информацию о существующих клипах в датасете
     if dataset_dir.exists():
         # Подсчитываем количество существующих клипов в датасете
-        existing_clips_count = len(list(dataset_dir.glob('**/*.mp4')))
-        log.info(f"Found {existing_clips_count} existing clips in dataset")
+        current_clips_count = len(list(dataset_dir.glob('**/*.mp4')))
+        if current_clips_count != existing_clips_count:
+            log.info(f"Updated clip count: found {current_clips_count} existing clips in dataset")
+            existing_clips_count = current_clips_count
     
     # Сохраняем текущий счетчик видео
     with open(video_count_file, 'w') as f:
@@ -285,10 +356,16 @@ def main():
         scraper_instance = scraper_class()
 
         for keyword in keywords:
-            # Проверяем, достигли ли мы целевого количества видео
-            if total_videos_downloaded >= target_video_count:
-                log.info(f"Reached target video count of {target_video_count}. Stopping scraping.")
+            # Проверяем, достигли ли мы целевого количества клипов
+            if existing_clips_count >= target_clip_count:
+                log.info(f"Reached target clip count of {target_clip_count}. Stopping scraping.")
                 break
+                
+            # Проверяем, достигли ли мы целевого количества видео и при этом не достигли целевого количества клипов
+            if total_videos_downloaded >= target_video_count and existing_clips_count < target_clip_count:
+                # Увеличиваем целевое количество видео, чтобы продолжить скачивание
+                target_video_count = int(target_video_count * 1.5)  # Увеличиваем на 50%
+                log.info(f"Increasing target video count to {target_video_count} to reach clip goal")
             
             # Проверяем, была ли эта комбинация скрапер+ключевое слово уже обработана
             progress_key = f"{scraper_name}:{keyword}"
@@ -317,7 +394,8 @@ def main():
                 for video_meta in video_meta_list:
                     # Проверяем, не обрабатывали ли мы уже это видео
                     video_id = f"{video_meta['source']}_{video_meta['id']}"
-                    if video_id in processed_videos:
+                    # Если целевое количество клипов не достигнуто, обрабатываем даже уже обработанные видео
+                    if video_id in processed_videos and existing_clips_count >= target_clip_count:
                         log.info(f"Video {video_id} already processed, skipping")
                         continue
                     
@@ -376,12 +454,8 @@ def main():
     else:
         log.warning("No clips were added to the dataset.")
 
-    # Clean up raw video directory
-    try:
-        shutil.rmtree(raw_videos_dir)
-        log.info(f"Cleaned up temporary directory: {raw_videos_dir}")
-    except OSError as e:
-        log.error(f"Error removing temporary directory {raw_videos_dir}: {e}")
+    # Не удаляем директорию с исходными видео, так как они могут понадобиться для дальнейшей обработки
+    log.info(f"Keeping raw videos directory for future processing: {raw_videos_dir}")
 
     log.info(f"Pipeline finished. Collected {len(final_clips)} unique clips.")
 
